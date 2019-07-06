@@ -1,0 +1,32 @@
+<ion-view>
+    <ion-nav-title>Carro escolhido</ion-nav-title>
+    <ion-content>
+        <div class="card">
+            <div class="item item-divider">
+                Ótima Escolha!
+            </div>
+            <div class="item item-text-wrap">
+                {{carroEscolhido.nome}}
+
+                <ul class="list">
+                    <li class="item item-toggle" ng-repeat="acessorio in listaDeAcessorios">
+                       {{acessorio.nome}} - {{acessorio.preco | currency}}
+                       <label class="toggle toggle-positive">
+                         <input type="checkbox" ng-model="isMarcado" ng-click="mudou(acessorio, isMarcado)">
+                         <div class="track">
+                           <div class="handle"></div>
+                         </div>
+                       </label>
+                    </li>
+                  </ul>
+
+            </div>
+            <div class="item item-divider">
+                {{carroEscolhido.preco | currency}}
+            </div>
+        </div>
+        <a class="button button-block button-balanced" href="#/finalizarPedido">
+            Finalizar pedido
+        </a>
+    </ion-content>
+</ion-view>
