@@ -1,0 +1,10 @@
+<ion-view>
+    <ion-nav-title><img class="title-image img-logo" src="../img/star_wars_logo_2.png"></ion-nav-title>
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="veiculo in listaDeVeiculos track by $index" href="#/veiculoEscolhido/{{veiculo}}">
+                {{veiculo.nome}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

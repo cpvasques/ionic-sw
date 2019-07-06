@@ -1,0 +1,12 @@
+[
+    {"nome": "X-Wing", "preco": 80000, "classe": "Caça", "faccao": "Rebelde"},
+    {"nome": "A-Wing", "preco": 45000, "classe": "Caça", "faccao": "Rebelde"},
+    {"nome": "Y-Wing", "preco": 45000, "classe": "Caça", "faccao": "Rebelde"},
+    {"nome": "Corvette Hammerhead", "preco": 35000, "classe": "Crusador", "faccao": "Rebelde"},
+    {"nome": "TIE Fighter", "preco": 30000, "classe": "Caça", "faccao": "Império"},
+    {"nome": "Imperial Star Destroyer", "preco": 60000, "classe": "Crusador", "faccao": "Império"},
+    {"nome": "AT-AT", "preco": 17000, "classe": "Walker", "faccao": "Império"},
+    {"nome": "AT-ST", "preco": 18000, "classe": "Walker", "faccao": "Império"},
+    {"nome": "Death Star", "preco": 7500000, "classe": "Estação Orbital", "faccao": "Império"},
+    {"nome": "TIE Advanced X1", "preco": 50000, "classe": "Caça", "faccao": "Império"}
+]

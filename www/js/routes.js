@@ -6,19 +6,19 @@ angular.module('projetoIonic')
         $stateProvider
             .state('listagem', {
             url: '/listagem',
-                templateUrl: 'templates/listagem.html',
+                templateUrl: 'views/listagem.html',
                     controller: 'ListagemController'
         })
 
-        .state('carroEscolhido',{
-            url: '/carroEscolhido/:carro',
-                templateUrl: 'templates/carroEscolhido.html',
-                    controller: 'CarroEscolhidoController'
+        .state('veiculoEscolhido',{
+            url: '/veiculoEscolhido/:veiculo',
+                templateUrl: 'views/veiculoEscolhido.html',
+                    controller: 'VeiculoEscolhidoController'
         })
 
         .state('finalizarPedido',{
             url: '/finalizarPedido',
-                templateUrl: 'templates/finalizarPedido.html',
+                templateUrl: 'views/finalizarPedido.html',
                     controller: 'FinalizarPedidoController'
         })
 

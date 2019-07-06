@@ -1,13 +1,16 @@
 <ion-view>
-    <ion-nav-title>Carro escolhido</ion-nav-title>
+    <ion-nav-title>Veículo escolhido</ion-nav-title>
     <ion-content>
         <div class="card">
+            <div class="item item-avatar">
+                <img ng-src="{{faccaoImg}}">
+                 {{veiculoEscolhido.faccao}}
+            </div>
             <div class="item item-divider">
-                Ótima Escolha!
+                Classe: {{veiculoEscolhido.classe}}
             </div>
             <div class="item item-text-wrap">
-                {{carroEscolhido.nome}}
-
+                {{veiculoEscolhido.nome}}
                 <ul class="list">
                     <li class="item item-toggle" ng-repeat="acessorio in listaDeAcessorios">
                        {{acessorio.nome}} - {{acessorio.preco | currency}}
@@ -22,7 +25,7 @@
 
             </div>
             <div class="item item-divider">
-                {{carroEscolhido.preco | currency}}
+                {{veiculoEscolhido.preco | currency}}
             </div>
         </div>
         <a class="button button-block button-balanced" href="#/finalizarPedido">
