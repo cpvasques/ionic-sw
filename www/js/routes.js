@@ -16,10 +16,10 @@ angular.module('projetoIonic')
                     controller: 'VeiculoEscolhidoController'
         })
 
-        .state('finalizarPedido',{
-            url: '/finalizarPedido',
-                templateUrl: 'views/finalizarPedido.html',
-                    controller: 'FinalizarPedidoController'
+        .state('sobre',{
+            url: '/sobre',
+                templateUrl: 'views/sobre.html',
+                controller: 'SobreController'
         })
 
     });

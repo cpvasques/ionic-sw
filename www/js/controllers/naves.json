@@ -1,12 +1,11 @@
 [
-    {"nome": "X-Wing", "preco": 80000, "classe": "Caça", "faccao": "Rebelde"},
-    {"nome": "A-Wing", "preco": 45000, "classe": "Caça", "faccao": "Rebelde"},
-    {"nome": "Y-Wing", "preco": 45000, "classe": "Caça", "faccao": "Rebelde"},
-    {"nome": "Corvette Hammerhead", "preco": 35000, "classe": "Crusador", "faccao": "Rebelde"},
-    {"nome": "TIE Fighter", "preco": 30000, "classe": "Caça", "faccao": "Império"},
-    {"nome": "Imperial Star Destroyer", "preco": 60000, "classe": "Crusador", "faccao": "Império"},
-    {"nome": "AT-AT", "preco": 17000, "classe": "Walker", "faccao": "Império"},
-    {"nome": "AT-ST", "preco": 18000, "classe": "Walker", "faccao": "Império"},
-    {"nome": "Death Star", "preco": 7500000, "classe": "Estação Orbital", "faccao": "Império"},
-    {"nome": "TIE Advanced X1", "preco": 50000, "classe": "Caça", "faccao": "Império"}
+    {"nome": "X-Wing", "imagem": "xwing.png", "classe": "Caça", "faccao": "Rebelde", "descricao": "Uma aeronave altamente armada com quatro canhões de laser e torpedos de prótons na fuselagem.  X-wings são usadas para 'dogfight' e longas missões."},
+    {"nome": "A-Wing", "imagem": "awing.png", "classe": "Caça", "faccao": "Rebelde", "descricao": "A A-Wing conta com hyperdrive, escudo refletor e estabilizador de giro. Feita de um material leve, foi designada para atingir grandes velocidades em missões de combate ar-para-ar."},
+    {"nome": "Y-Wing", "imagem": "tie.png", "classe": "Caça", "faccao": "Rebelde", "descricao": "Com capacidade para 2 tripulates ( piloto e atirador ), é uma aeronave pesada e resistente, indicada para missões de reconhecimento e seu armamento é voltado para bombardeio."},
+    {"nome": "Corvette Hammerhead", "imagem": "corvette.png", "classe": "Crusador", "faccao": "Rebelde", "descricao": "O crusador Corvette Hammerhead possui uma grande quantidade de postos para tripulantes, possui cápsulas de fugas, alta capacidade de carga e armamento pesado."},
+    {"nome": "TIE Fighter", "imagem": "tie.png", "classe": "Caça", "faccao": "Império", "descricao": "Um caça do império de velocidade improssionante e manobrabilibade incomparável, o TIE é o pesadelo dos pilotos da resistência rebelde."},
+    {"nome": "Imperial Star Destroyer", "imagem": "stardestroyer.png", "classe": "Crusador", "faccao": "Império", "descricao": "Pode ser considerado uma cidade voadora, com hangares para caças, tanques, transportes para tropas e uma resistência a danos absurdamente alta."},
+    {"nome": "AT-AT", "imagem": "atat.png", "classe": "Walker", "faccao": "Império", "descricao": "Um veículo terrestre que não possui problemas com nenhum tipo de terreno, possui morteiros, canhões de alto calibre e hangar para veículos de pequeno porte."},
+    {"nome": "AT-ST", "imagem": "atst.png", "classe": "Walker", "faccao": "Império", "descricao": "Com objetivo de patrulha, o AT-ST é um veículo equipado com armas de médio calibre e é recomentado também para reconhecimento de terrenos."},
+    {"nome": "Death Star", "imagem": "deathstar.png", "classe": "Estação Orbital", "faccao": "Império", "descricao": "Considerada a arma suprema do império com tecnologia e armamento capaz de destruir planetas inteiros, possui hangares, estações de comunicação e propulsores que atingem a velocidade da luz. Diferente de outros veículos de guerra, seu armamento é carregado com cristais Kyber, o mesmo cristal utilizado nos sabres de luz."}
 ]

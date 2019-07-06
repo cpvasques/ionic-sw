@@ -1,35 +1,20 @@
 <ion-view>
-    <ion-nav-title>Veículo escolhido</ion-nav-title>
+    <ion-nav-title>{{veiculoEscolhido.nome}}</ion-nav-title>
     <ion-content>
         <div class="card">
             <div class="item item-avatar">
                 <img ng-src="{{faccaoImg}}">
-                 {{veiculoEscolhido.faccao}}
+                {{veiculoEscolhido.faccao}}
             </div>
             <div class="item item-divider">
                 Classe: {{veiculoEscolhido.classe}}
             </div>
             <div class="item item-text-wrap">
                 {{veiculoEscolhido.nome}}
-                <ul class="list">
-                    <li class="item item-toggle" ng-repeat="acessorio in listaDeAcessorios">
-                       {{acessorio.nome}} - {{acessorio.preco | currency}}
-                       <label class="toggle toggle-positive">
-                         <input type="checkbox" ng-model="isMarcado" ng-click="mudou(acessorio, isMarcado)">
-                         <div class="track">
-                           <div class="handle"></div>
-                         </div>
-                       </label>
-                    </li>
-                  </ul>
-
+                <div class="item item-body">
+                    <img class="full-image" ng-src="../../img/ships/{{veiculoEscolhido.imagem}}">
+                    <p>  {{veiculoEscolhido.descricao}}</p>
+                </div>
             </div>
-            <div class="item item-divider">
-                {{veiculoEscolhido.preco | currency}}
-            </div>
-        </div>
-        <a class="button button-block button-balanced" href="#/finalizarPedido">
-            Finalizar pedido
-        </a>
     </ion-content>
 </ion-view>
