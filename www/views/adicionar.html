@@ -1,32 +1,33 @@
 <ion-view>
     <ion-nav-title>Adicionar Veículo</ion-nav-title>
     <ion-content>
-        <div class="list">
-            <label class="item item-input">
-                <span class="input-label">Nome do Veículo</span>
-                <input type="text" placeholder="X-Wing">
-            </label>
-            <label class="item item-input item-select">
-                <div class="input-label">
-                    Faccção
-                </div>
-                <select>
-                    <option>Selecione</option>
-                    <option>Império</option>
-                    <option>Rebelde</option>
-                </select>
-            </label>
-            <label class="item item-input item-select">
-                <div class="input-label">
-                    Classe
-                </div>
-                <select>
-                    <option>Selecione</option>
-                    <option>Caça</option>
-                    <option>Crusador</option>
-                    <option>Walker</option>
-                </select>
-            </label>
-        </div>
+            <div class="list" ng-controller='AdicionarController'>
+                <label class="item item-input">
+                    <input type="text" ng-model='nome' placeholder="Nome do Veículo">
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Classe
+                    </div>
+                    <select ng-model='classe'>
+                        <option>Caça</option>
+                        <option>Crusador</option>
+                        <option>Walker</option>
+                    </select>
+                </label>
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        Facção
+                    </div>
+                    <select ng-model='faccao'>
+                        <option>Império</option>
+                        <option>Rebelde</option>
+                    </select>
+                </label>
+                <label class="item item-input">
+                    <textarea placeholder="Descrição" ng-model='descricao'></textarea>
+                </label>
+                <input class="button button-block button-positive" ng-click="adicionar()" type="button" value="Adicionar">
+            </div>
     </ion-content>
 </ion-view>
