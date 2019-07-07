@@ -9,6 +9,6 @@ angular.module('projetoIonic')
         { 'nome': 'React-Native', 'loading': 'ion-checkmark' },
         { 'nome': 'NodeJS', 'loading': 'ion-checkmark' },
         { 'nome': 'MongoDB', 'loading': 'ion-checkmark' },
-        { 'nome': 'In progress: Ionic V1', 'loading': 'ion-alert' }
+        { 'nome': 'Em progresso: Ionic V1', 'loading': 'ion-alert' }
     ];
 });

@@ -22,4 +22,10 @@ angular.module('projetoIonic')
                 controller: 'SobreController'
         })
 
+        .state('adicionar',{
+            url: '/adicionar',
+                templateUrl: 'views/adicionar.html',
+                controller: 'AdicionarController'
+        })
+
     });
